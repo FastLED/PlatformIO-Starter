@@ -11,7 +11,8 @@ Basic starter project for developing FastLED applications in PlatformIO.
     * Compile: Looks like a "checkmark" icon at the bottom toolbar of VSCode.
     * Compile and Upload: Looks like a "right arrow" at the bottom toolbar of VSCode, right to the right of the "compile" button.
     * Example:
-      * <img width="120" alt="image" src="https://github.com/user-attachments/assets/3406b4b9-6016-4b80-8a00-11d1b25dada7">
+      * <img width="223" alt="image" src="https://github.com/user-attachments/assets/81c94d7b-cc50-46fd-ad7d-ced91c254d36">
+
 
 
 ## Using a board other than Arduino UNO
