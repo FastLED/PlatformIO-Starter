@@ -65,7 +65,7 @@ autocompletion tools for writing code. For example you
 can jump to a function definition with a right click. This works not only for your own code but the libraries that you use. For example you can jump to FastLED's implementation of `FastLED.show()` with a right click and
 see what's going on.
 
-CoPilot is an amazing tool that will 4x your coding. No JOKE! Since VSCode as first class support of CoPilot, you can now use this in your Arduino Projects here.
+CoPilot is an amazing tool that will 10x your coding. No JOKE! Since VSCode as first class support of CoPilot, you can now use this in your Arduino Projects here.
 
 ### Not necessary to select the port
 
