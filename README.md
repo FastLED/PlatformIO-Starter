@@ -41,7 +41,7 @@ Everything you'd want to do in Arduino IDE can be done with VSCode + PlatformIO.
   2. Modify the `board = uno` part with your board.
   3. Everything will auto magically update and you can compile/upload and it should just work.
 
-You can also look at the platforms/ folder for example `platformio.ini` files that you can use to get the main sketch running for your specific board type.
+You can also look at the platforms/ folder [here](https://github.com/FastLED/PlatformIO-Starter/tree/main/platforms) for platformio ini files that you can use to get the main sketch running for your specific board type.
 
 ## Stuck? Use ChatGPT or Claude
 
