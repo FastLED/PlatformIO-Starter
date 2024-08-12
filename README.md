@@ -21,6 +21,7 @@ Everything you'd want to do in Arduino IDE can be done with VSCode + PlatformIO.
     * Example:
       * <img width="223" alt="image" src="https://github.com/user-attachments/assets/81c94d7b-cc50-46fd-ad7d-ced91c254d36">
     * The "Serial Monitor" (so you can see Serial.print) is located with this button at the very right: <img width="147" alt="image" src="https://github.com/user-attachments/assets/ed57b60d-a5b8-4dee-8b45-2a7f5616004c">
+  * Looking to go even further? Checkout the full platformio tutorial here: https://docs.platformio.org/en/latest/integration/ide/vscode.html#quick-start
 
 
 
