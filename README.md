@@ -12,7 +12,7 @@ Basic starter project for developing FastLED applications in PlatformIO.
     * Compile and Upload: Looks like a "right arrow" at the bottom toolbar of VSCode, right to the right of the "compile" button.
     * Example:
       * <img width="223" alt="image" src="https://github.com/user-attachments/assets/81c94d7b-cc50-46fd-ad7d-ced91c254d36">
-    * The "Serial Monitor" (so you can see Serial.print) is located with this button:<img width="147" alt="image" src="https://github.com/user-attachments/assets/ed57b60d-a5b8-4dee-8b45-2a7f5616004c">
+    * The "Serial Monitor" (so you can see Serial.print) is located with this button at the very right: <img width="147" alt="image" src="https://github.com/user-attachments/assets/ed57b60d-a5b8-4dee-8b45-2a7f5616004c">
 
 
 
