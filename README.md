@@ -16,8 +16,10 @@ Everything you'd want to do in Arduino IDE can be done with VSCode + PlatformIO.
 
   * Download and install VSCode
   * Open up VSCode and install the platformio extension
-    * On the left hand side toolbar you'll see this icon, click it: <img width="53" alt="image" src="https://github.com/user-attachments/assets/d0f118ad-8f1f-42a5-ade6-d1d79dd83ca4">
-    * Search for extension "PlatformIO": <img width="246" alt="image" src="https://github.com/user-attachments/assets/a4805786-4c42-4859-9761-6af14bacd9c3">
+    * On the left hand side toolbar you'll see this icon, click it:
+      * <img width="53" alt="image" src="https://github.com/user-attachments/assets/d0f118ad-8f1f-42a5-ade6-d1d79dd83ca4">
+    * Search for extension "PlatformIO":
+      * <img width="246" alt="image" src="https://github.com/user-attachments/assets/a4805786-4c42-4859-9761-6af14bacd9c3">
     * Then install it.
 
 ## Clone this repo (or download it)
