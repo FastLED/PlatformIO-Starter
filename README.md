@@ -22,11 +22,17 @@ Everything you'd want to do in Arduino IDE can be done with VSCode + PlatformIO.
       * <img width="246" alt="image" src="https://github.com/user-attachments/assets/a4805786-4c42-4859-9761-6af14bacd9c3">
     * Then install it.
 
-## Clone this repo (or download it)
+## Download this repo or `git clone` it
 
-  * Now download/clone this repo and open it up in VSCode
+  * Download
+    * Use this link: https://github.com/FastLED/PlatformIO-Starter/archive/refs/heads/main.zip
+
+  * -or- `git clone` it
     * `git clone https://github.com/FastLED/PlatformIO-Starter`
-    * Now open up the repo directory in `VSCode`.
+   
+  * Now open up the repo directory in `VSCode`.
+   
+
   * Now all the dependencies to will be automatically installed and you can hit the compile or upload button
     * Compile: Looks like a "checkmark" icon at the bottom toolbar of VSCode.
     * Compile and Upload: Looks like a "right arrow" at the bottom toolbar of VSCode, right to the right of the "compile" button.
