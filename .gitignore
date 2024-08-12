@@ -7,5 +7,4 @@
 .vscode/ipch
 
 .aider*
-!.aider.conf.yml
-!.aiderignore
+.aiderignore
