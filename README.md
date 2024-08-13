@@ -1,6 +1,6 @@
 # PlatformIO-Starter
 
-Basic starter project for developing FastLED applications in PlatformIO.
+Basic starter project for developing FastLED applications in PlatformIO. It's also backward compatible with Arduino IDE.
 
 # Why?
 
