@@ -4,7 +4,7 @@ Basic starter project for developing FastLED applications in PlatformIO. It's al
 
 # Why?
 
-PlatformIO is generally viewed as a **much** better coding exprience that Arduino IDE. It's also extremely easy to setup and start using. Typically users will start out with the Arduino IDE then graduate to PlatformIO and never look back. The main benefits come not from PlatformIO but actually using VSCode: including AutoComplete and CoPilot which will 10x your ability to write code (no joke).
+Typically FastLED users will start out with the Arduino IDE then graduate to PlatformIO and never look back. You'll use VScode with the platformio extension. This gives you copilot and other AI tools.
 
 PlatformIO is a better package manager than the one ArduinoIDE uses primarily because your depedencies are defined with the project repo instead of globally. This means you can hand off you code repo to someone else and they can just fire it up in platformio and all dependencies will auto-magically be installed and they can start running your project.
 
