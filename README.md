@@ -6,7 +6,7 @@ Basic starter project for developing FastLED applications in PlatformIO. It's al
 
 Typically FastLED users will start out with the Arduino IDE then graduate to PlatformIO and never look back. You'll use VScode with the platformio extension. This gives you copilot and other AI tools.
 
-PlatformIO is a better package manager than the one ArduinoIDE uses primarily because your depedencies are defined with the project repo instead of globally. This means you can hand off you code repo to someone else and they can just fire it up in platformio and all dependencies will auto-magically be installed and they can start running your project.
+PlatformIO is a better package manager than the one ArduinoIDE uses primarily because your dependencies are defined with the project repo instead of globally. This means you can hand off your code repo to someone else and they can just fire it up in platformio and all dependencies will auto-magically be installed and they can start running your project.
 
 Everything you'd want to do in Arduino IDE can be done with VSCode + PlatformIO. Keep that in mind. If you don't like platformIO you can still use the ArduinoIDE. This repo has been designed to allow both.
 
@@ -33,7 +33,7 @@ Everything you'd want to do in Arduino IDE can be done with VSCode + PlatformIO.
   * Now open up the repo directory in `VSCode`.
    
 
-  * Now all the dependencies to will be automatically installed and you can hit the compile or upload button
+  * Now all the dependencies will be automatically installed and you can hit the compile or upload button
     * Compile: Looks like a "checkmark" icon at the bottom toolbar of VSCode.
     * Compile and Upload: Looks like a "right arrow" at the bottom toolbar of VSCode, right to the right of the "compile" button.
     * Example:
@@ -53,7 +53,7 @@ You can also look at the platforms/ folder [here](https://github.com/FastLED/Pla
 
 ## Stuck? Use ChatGPT or Claude
 
-It's worth noting that the LLM Chatbots have all been trained on platformio's `platformio.ini` file. Simply copy and paste your `platformio.ini` file into one of the chat bots then ask it to make modifiations to run your board and it will probably work the first time.
+It's worth noting that the LLM Chatbots have all been trained on platformio's `platformio.ini` file. Simply copy and paste your `platformio.ini` file into one of the chat bots then ask it to make modifications to run your board and it will probably work the first time.
 
 ## Install Package Libraries
 
@@ -80,7 +80,7 @@ In a nutshell you will write code 10x faster with platformio because of VSCode's
 ### Advanced AutoComplete + CoPillot
 
 PlatformIO relies on VSCode which has far more advanced
-autocompletion tools for writing code. For example you
+auto-completion tools for writing code. For example you
 can jump to a function definition with a right click. This works not only for your own code but the libraries that you use. For example you can jump to FastLED's implementation of `FastLED.show()` with a right click and
 see what's going on.
 
@@ -102,8 +102,8 @@ Got a problem with a library package? Right click one of the symbols and VSCode 
 
 In the Arduino IDE you install dependencies (like FastLED) at the Global level. If you downgrade one of your dependencies then EVERY sketch also get's downgraded. You simply cannot have local packages unless you copy and paste the entire code base into your sketches src/ directory.
 
-However, platformio takes a different approach, every dependencies is local to your sketch folder in the .pio directory.
+However, platformio takes a different approach, every dependency is local to your sketch folder in the .pio directory.
 
-This means that all project depedencies for a specific sketch repo will stay with that sketch and won't affect anything else.
+This means that all project dependencies for a specific sketch repo will stay with that sketch and won't affect anything else.
 
-A real world example of how useful it is can be illustrated with the recent Arduion 2.3.1 upgrade, which forced the esp32 idf 5.1 library onto all Arduino users. This broke *every single* FastLED user in the Arduino IDE universe that was compiling FastLED for one of the esp32-s3 flavors of boards. To fix this you had to downgrade the package dependency at the global level. However with platform io you can happily pin your depenencies to versions you know works. If you give your repo to someone else, then you can be pretty certain it will work for them to.
+A real world example of how useful it is can be illustrated with the recent Arduino 2.3.1 upgrade, which forced the esp32 idf 5.1 library onto all Arduino users. This broke *every single* FastLED user in the Arduino IDE universe that was compiling FastLED for one of the esp32-s3 flavors of boards. To fix this you had to downgrade the package dependency at the global level. However with platform io you can happily pin your dependencies to versions you know works. If you give your repo to someone else, then you can be pretty certain it will work for them to.
