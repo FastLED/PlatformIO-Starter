@@ -1,4 +1,5 @@
 #include <FastLED.h>
+#include <stdint.h>
 
 #define LED_PIN     5
 #define NUM_LEDS    1
@@ -8,6 +9,12 @@
 CRGB leds[NUM_LEDS];
 
 void setup() {
+
+  uint32_t timeout_end = millis() + 2000;
+  Serial.begin(115200);
+  while(!Serial && timeout_end < millis()) {}  //wait until the connection to the PC is established
+
+  
   FastLED.addLeds<LED_TYPE, LED_PIN, COLOR_ORDER>(leds, NUM_LEDS).setCorrection(TypicalLEDStrip);
   FastLED.setBrightness(BRIGHTNESS);
 }
