@@ -11,7 +11,7 @@ CRGB leds[NUM_LEDS];
 void wait_for_serial_connection() {
   uint32_t timeout_end = millis() + 2000;
   Serial.begin(115200);
-  while(!Serial && timeout_end < millis()) {}  //wait until the connection to the PC is established
+  while(!Serial && timeout_end > millis()) {}  //wait until the connection to the PC is established
   
 }
 
