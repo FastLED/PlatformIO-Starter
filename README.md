@@ -2,6 +2,10 @@
 
 Basic starter project for developing FastLED applications in PlatformIO. It's also backward compatible with Arduino IDE.
 
+# Download
+
+https://github.com/FastLED/PlatformIO-Starter/archive/refs/heads/main.zip
+
 # Why?
 
 Typically FastLED users will start out with the Arduino IDE then graduate to PlatformIO and never look back. You'll use VScode with the platformio extension. This gives you copilot and other AI tools.
