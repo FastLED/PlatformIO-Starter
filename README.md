@@ -19,7 +19,7 @@ PlatformIO is a better package manager than the one ArduinoIDE uses primarily be
 
 Everything you'd want to do in Arduino IDE can be done with VSCode + PlatformIO. Keep that in mind. If you don't like platformIO you can still use the ArduinoIDE. This repo has been designed to allow both.
 
-# Quick Start
+# Install Guide
 
 ## One time installation: Install VSCode + PlatformIO
 
