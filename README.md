@@ -8,6 +8,7 @@ Basic starter project for developing FastLED applications in PlatformIO. It's al
   * Download this repo: https://github.com/FastLED/PlatformIO-Starter/archive/refs/heads/main.zip
   * Open it up with VSCode
   * Click the platformio compile + upload button (see below)
+  * Now copy in your sketch files until it's your project.
   * That's it!
 
 # Why?
