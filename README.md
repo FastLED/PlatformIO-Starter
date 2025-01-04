@@ -4,7 +4,7 @@ Basic starter project for developing FastLED applications in PlatformIO. It's al
 
 # Quick start
 
-  * Install [VSCode](https://code.visualstudio.com/download). Add the [PlatformIO extension](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
+  * Install free [VSCode](https://code.visualstudio.com/download). Add the free [PlatformIO extension](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
   * Download this repo: https://github.com/FastLED/PlatformIO-Starter/archive/refs/heads/main.zip
   * Open it up with VSCode
   * Click the platformio compile + upload button (see below)
@@ -13,9 +13,9 @@ Basic starter project for developing FastLED applications in PlatformIO. It's al
 
 # Why?
 
-Typically FastLED users will start out with the Arduino IDE then graduate to PlatformIO and never look back. You'll use VScode with the platformio extension. This gives you copilot and other AI tools.
+Typically FastLED users will start out with the Arduino IDE then graduate to PlatformIO and never look back. You'll use VScode with the platformio extension. This gives you copilot and other AI tools. Yes, there is a command tool too `platformio`, and we use it to compile all of FastLEDs compile targets.
 
-PlatformIO is a better package manager than the one ArduinoIDE uses primarily because your dependencies are defined with the project repo instead of globally. This means you can hand off your code repo to someone else and they can just fire it up in platformio and all dependencies will auto-magically be installed and they can start running your project.
+PlatformIO has a better package manager than the one ArduinoIDE uses primarily because your dependencies are defined with the project repo instead of globally. This means you can hand off your code repo to someone else and they can just fire it up in VSCode and all dependencies will auto-magically be installed and they can start running your project.
 
 Everything you'd want to do in Arduino IDE can be done with VSCode + PlatformIO. Keep that in mind. If you don't like platformIO you can still use the ArduinoIDE. This repo has been designed to allow both.
 
