@@ -116,3 +116,8 @@ However, platformio takes a different approach, every dependency is local to you
 This means that all project dependencies for a specific sketch repo will stay with that sketch and won't affect anything else.
 
 A real world example of how useful it is can be illustrated with the recent Arduino 2.3.1 upgrade, which forced the esp32 idf 5.1 library onto all Arduino users. This broke *every single* FastLED user in the Arduino IDE universe that was compiling FastLED for one of the esp32-s3 flavors of boards. To fix this you had to downgrade the package dependency at the global level. However with platform io you can happily pin your dependencies to versions you know works. If you give your repo to someone else, then you can be pretty certain it will work for them to.
+
+
+# Misc
+
+  * https://github.com/sivar2311/ESP32-S3-PlatformIO-Flash-and-PSRAM-configurations
