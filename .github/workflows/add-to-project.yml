@@ -8,7 +8,7 @@ name: add-to-project
 # a repo secret.
 #
 # Required configuration (already set on all 6 feeder repos):
-#   vars.PROJECT_APP_ID           = 3422407
+#   vars.PROJECT_APP_CLIENT_ID      = Iv23liL4dLxjYFwTNWKt
 #   vars.PROJECT_OWNER            = FastLED
 #   vars.PROJECT_NUMBER           = 1
 #   secrets.PROJECT_APP_PRIVATE_KEY = <PEM contents>
@@ -30,13 +30,13 @@ permissions:
 jobs:
   add:
     runs-on: ubuntu-latest
-    if: ${{ vars.PROJECT_APP_ID != '' && vars.PROJECT_OWNER != '' }}
+    if: ${{ vars.PROJECT_APP_CLIENT_ID != '' && vars.PROJECT_OWNER != '' }}
     steps:
       - name: Generate App token
         id: app-token
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@v3
         with:
-          app-id: ${{ vars.PROJECT_APP_ID }}
+          client-id: ${{ vars.PROJECT_APP_CLIENT_ID }}
           private-key: ${{ secrets.PROJECT_APP_PRIVATE_KEY }}
           owner: ${{ vars.PROJECT_OWNER }}
 
